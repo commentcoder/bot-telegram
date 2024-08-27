@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler
 
 load_dotenv()
 
-token = os.getenv('TOKEN')
+token = os.getenv("TOKEN")
 
 async def start(update, context):
   await update.message.reply_text("""Bienvenue sur le bot de Comment Coder.
